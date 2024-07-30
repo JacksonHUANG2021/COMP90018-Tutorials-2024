@@ -67,6 +67,7 @@ public class MainActivity extends AppCompatActivity {
         if (step == Step.Two) {
             //Step Two: Show how to add listener to a button
             button = findViewById(R.id.button);
+//            System.out.println("testjava");
             button.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
@@ -97,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void triggerButtonPressWithIntent()
     {
-        Log.d(TAG, "outputLog: Click Button Successful!");
+        Log.d(TAG, "outputLog: Click `Button` Successful!");
 
         /*
         Explicit intents specify which component of which application
